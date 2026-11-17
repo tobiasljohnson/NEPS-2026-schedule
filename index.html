@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>NEPS Talks and Abstracts</title>
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link type="text/css" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Neuton:300" />
+
+
+    <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/custom.css">
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script type="text/javascript" id="MathJax-script" async
+          src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
+  </script>
+  <style>
+    .speaker {font-size: 1.75rem; font-weight: bold;}
+    .title {font-size: 1.75rem; font-style: italic}
+    .abstract {margin-left: 4rem; margin-right: 4rem;}
+    .abstract > p {margin-bottom: .75rem}
+    h2 {font-size:3.5rem;}
+    h3 {font-size:2.75rem; margin-bottom:0rem}
+    div.talk {margin-top: 2rem;}
+    div .talk:last-of-type {margin-bottom:6rem; }
+  </style>
+</head>
+<body>
+
+  <!-- Primary Page Layout
+       –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <header>
+  <div class="container header">
+      <div class="twelve columns">
+        <h1>NEPS 2026 Talks and Abstracts</h1>
+      </div>
+  </div>
+  </header>
+  <div class="container">
+    <h2>Plenary Talks</h2>
+    <h3 id="plenary1">Thursday 9:30-11:45</h3>
+    <div class="row">
+      <div class="twelve columns">
+        <div class="talk">
+          <span class="speaker" id="jagannath">Aukosh Jagannath</span>
+          <span class="title">The training dynamics and local geometry of high-dimensional learning</span>
+          <div class="abstract">Many modern data science tasks involve optimizing a complex, random function in high dimensions. The go-to methods for such problems are variations of stochastic gradient descent (SGD). Though they perform remarkably well, the rigorous analysis of SGD on high-dimensional statistical models is in its infancy. This talk will study the high-dimensional limits of the training dynamics and the local geometry from the point-of-view of the algorithm. We will discuss how in this limit, for many statistical tasks, the evolution of a certain summary statistics converge to a closed finite dimensional dynamical system, called their effective dynamics. If there is time, we will then discuss some applications connecting this to an understanding of the spectrum of the Hessian and Information matrices along the training trajectory and applications to other algorithms. This talk is based on a series of joint works with G. Ben Arous (NYU), R. Gheissari (Northwestern), J. Huang (NYU), T. Jones-McCormick (Waterloo), and V. Sarangian (Waterloo).</div>
+        </div>
+        <div class="talk">
+          <span class="speaker" id="dunlap">Alex Dunlap</span>
+          <span class="title">Time-reversal, singularity, and integrability for the KPZ equation</span>
+          <div class="abstract">The KPZ equation is a (1+1)-dimensional model of interface growth in the crossover regime. It is of interest both to the stochastic analysis community as an example of a singular stochastic PDE and also to the integrable probability community as a model featuring a rich structure that can be understood using the tools of integrable probability. Much of the integrable structure of the KPZ equation is accessed via taking limits of discrete models for which the structure is more transparent. In this talk, I will describe how the skew-symmetry of the KPZ equation under time-reversal, together with some tools from singular stochastic PDE, provides a route to understanding some of the integrability properties of the KPZ equation directly in the continuum. This includes stochastic analysis-based proofs of the invariant measure formulas for the open KPZ equation (joint work with Yu Gu and Tommaso Rosati) and for the multilayer and multicolor KPZ equations (joint work with Nicolas Perkowski, Ran Tao, and Hendrik Weber).</div>
+        </div>
+      </div>
+    </div>
+    <h3 id="plenary2">Friday 9:30-11:45</h3>
+    <div class="row">
+      <div class="twelve columns">
+        <div class="talk">
+          <span class="speaker" id="tetali">Prasad Tetali</span>
+          <span class="title">An update on Catalan shuffles</span>
+          <div class="abstract">I will report on a recent improved upper bound on the relaxation time of the random walk on triangulations of a convex polygon, making progress on a notorious long-standing conjecture of David Aldous. I will also share updates on the mixing time of other Catalan shuffles, and open problems. Most of the results are joint works with students and postdocs.</div>
+        </div>
+        <div class="talk">
+          <span class="speaker" id="dumitriu">Ioana Dumitriu</span>
+          <span class="title">Singular values/vectors of sparse random matrices at criticality: outliers and localization</span>
+          <div class="abstract"><p>Sparse random matrices are a fundamental object of study in a broad range of disciplines, from genomics to machine learning and to numerical linear algebra. The basic random model for sparse matrices is the adjacency matrix of the Erdős-Rényi random graph, and the spectra and singular values of such matrices have been the subject of intensive study for many decades. Following the 2021 work of Alt, Ducatez, and Knowles on the spectra of such matrices near criticality (<i>np</i> ∼ log <i>n</i>), we have examined the singular values and singular vectors of rectangular 0/1 sparse matrices, corresponding to bipartite Erdős-Rényi random graphs. The intuition is that the singular values stick to the Marčenko-Pastur bulk as long as the edge probability is above certain thresholds, under which outliers appear (to the left or to the right).</p><p>In recent work, we have shown this intuition right by proving and characterizing the thresholds for outlier separation from the bulk, as a function of the aspect ratio (subject to one technical condition). We have subsequently extended these results to remove the technical condition, as well as to describe singular vector (de)localization for ranges of corresponding singular values. This is joint with Hai-Xiao Wang, Zhichao Wang, and Yizhe Zhu.</p></div>
+        </div>
+      </div>
+    </div>
+    <h2>Short Talks</h2>
+    <h3 id="session1">Thursday 1:45-2:45</h3>
+    <div class="row">
+      <div class="twelve columns">
+        <div class="talk">
+          <span class="speaker">Carla Crucianelli</span>
+          <span class="title">Nonlinear graphon games</span>
+          <div class="abstract">When studying a non-cooperative stochastic differential game, it is classical to use the mean-field game framework. However, this approach has its limitations when the particles interact through a random graph. This is because we expect the heterogeneity of the system to be retained in the large population limit. In this talk, we consider a non-cooperative stochastic differential game with player interactions modeled through a sequence of graphs converging to a graphon. We show that under standard regularity conditions and dissipativity of the drift of the state process, when the number of players goes to infinity, the game converges to a general graphon game. The limit is quantitative and based on a new form of propagation of chaos for interacting FBSDEs on graphs. Further, when the cost function satisfies the Lasry-Lions monotonicity condition, we propose an existence and uniqueness result for graphon games. Our proof relies on investigating a system of uncountably many McKean-Vlasov type BSDEs driven by a continuum of Brownian motions. We study this BSDE in a specific probability framework called a Fubini extension and discuss its well-posedness, characterize the graphon mean-field equilibrium and show its existence and uniqueness. The existence proof is based on a new application of the continuation method. Joint work with Dylan Possamaï and Ludovic Tangpi.</div>
+        </div>
+        <div class="talk">
+          <span class="speaker">Barkat Mian</span>
+          <span class="title">A submartingale for the probability of avoiding the origin in one-point interaction ground-state diffusion: \(d \in \{2,3\}\)</span>
+          <div class="abstract">We study the near-origin behavior on \([0,T]\) of the singular diffusion whose transition density is given by a Doob transform of the integral kernel of the semigroup generated by the <i>d</i>-dimensional Schrödinger operator \(L^\gamma\) with a one-point potential at the origin, where the driving family is the ground state of \(L^\gamma\) and \(d\in\{2,3\}\). We construct a submartingale whose increasing component grows only at times when the diffusion visits the origin. Using this submartingale, we show that the diffusion hits the origin with positive probability and that, conditionally on hitting the origin by time <i>T</i>, the first hitting time has a truncated generalized inverse Gaussian (GIG) distribution. We further study the dynamics under conditioning to avoid the origin: under the conditional law, the diffusion is not a standard Brownian motion, but instead admits a representation in terms of a regularized drift and a continuous martingale. While these properties are known in dimension two, the present submartingale-based approach provides an alternative verification and treats dimensions two and three in a unified manner.</div>
+        </div>
+        <div class="talk">
+          <span class="speaker">Chenglin Liu</span>
+          <span class="title">Metastability for randomly perturbed degenerate diffusions</span>
+          <div class="abstract">We study the long-time behavior of small random perturbations of degenerate diffusion processes whose unperturbed dynamics possess invariant manifolds. Since the perturbation is small, degeneracy near the invariant sets leads to behavior that differs substantially from the classical uniformly elliptic setting. We describe how trajectories leave neighborhoods of these sets, identify the relevant metastable time scales, and characterize the resulting limiting distributions. This is joint work with Leonid Koralov.</div>
+        </div>
+        <div class="talk">
+          <span class="speaker">Leonardo Bonanno</span>
+          <span class="title">Parameterized walk on orthogonal tiling graphs converges to Brownian motion</span>
+          <div class="abstract">Bou-Rabee and Gwynne proved that random walks on orthogonal tilings converge to Brownian motion modulo time reparameterization. I will discuss an extension of this result which identifies a natural limiting time parameterization. Given a measure <i>μ</i>, we assign to each vertex <i>v</i> a mean holding time \(\mu(P_v)/\pi(v)\), where \(P_v\) is the corresponding tile and \(\pi(v)\) is the total outgoing conductance. Under suitable geometric and measure-regularity assumptions, these walks converge in distribution to Brownian motion time-changed by <i>μ</i>, in the uniform topology up to the exit time from a bounded domain, uniformly over starting points. The proof relies on an \(L^\infty\) convergence theorem for discrete elliptic equations with measure-valued potential and forcing. I will also discuss extensions to infinite orthogonal tilings, where random walks may reflect off infinity, and applications to Liouville Brownian motion via Gaussian multiplicative chaos.</div>
+        </div>
+        <div class="talk">
+          <span class="speaker">Brian Chao</span>
+          <span class="title">Dirichlet heat kernel estimates on unbounded domains</span>
+          <div class="abstract">We study Brownian motion and Dirichlet heat kernels in a class of unbounded domains in Euclidean space. These domains have a positive first Dirichlet eigenvalue, and Brownian motion started anywhere in the domain has a finite expected lifetime until hitting the boundary. We obtain sharp two-sided estimates for the Dirichlet heat kernel in this setting. A central ingredient is the construction and estimation of the ground state eigenfunction of the Dirichlet Laplacian. Joint work with Phanuel Mariano, Laurent Saloff-Coste, and Jing Wang.</div>
+        </div>
+      </div>
+    </div>
+    <h3 id="session2">Thursday 3:00-4:00</h3>
+    <div class="row">
+      <div class="twelve columns">
+        <div class="talk">
+          <span class="speaker">Reihaneh Malekian</span>
+          <span class="title">LDP for tensor forms</span>
+          <div class="abstract">In this paper, we study the large deviation principle (LDP) for a tensor-weighted functional of i.i.d. random variables, when the sequence of tensors converges under a variant of the “bad” cut norm. Using the LDP, we analyze a Gibbs measure with a tensor-valued Hamiltonian, and characterize the optimizers of the limiting variational problem in terms of a functional fixed point equation. As applications, we focus on several concrete examples, which include monochromatic subgraph counts in sparse random graphs, Erdős–Rényi hypergraphs, and a generalized Potts statistic of order \(v\ge 2\). Studying the optimization problem, we give sufficient conditions for uniqueness of the optimizer, as well as for existence of constant optimizers (replica symmetry). Our results demonstrate universal weak laws for a large class of tensor Gibbs models with approximately regular tensors.</div>
+        </div>
+        <div class="talk">
+          <span class="speaker">Conor Sheehan</span>
+          <span class="title">On the low-temperature MCMC threshold: the cases of sparse tensor PCA, sparse regression, and a geometric rule</span>
+          <div class="abstract"><p>Over the last years, there has been a significant amount of work studying the power of specific classes of computationally efficient estimators for multiple statistical parametric estimation tasks, including the estimators classes of low-degree polynomials, spectral methods, and others. Despite that, our understanding of the important class of MCMC methods remains quite poorly understood. For instance, for many models of interest, the performance of even zero-temperature (greedy-like) MCMC methods that simply maximize the posterior remains elusive.</p><p>In this work, we provide an easy to check condition under which the low-temperature Metropolis chain maximizes the posterior in polynomial-time with high probability. The result is generally applicable, and in this work, we use it to derive positive MCMC results for two classical sparse estimation tasks: the sparse tensor PCA model and sparse regression. Interestingly, in both cases, we also leverage the Overlap Gap Property framework for inference (Gamarnik, Zadik AoS '22) to prove that our results are tight: no low-temperature local MCMC method can achieve better performance. In particular, our work identifies the "low-temperature (local) MCMC threshold" for both sparse models. Interestingly, in the sparse tensor PCA model our results indicate that low-temperature local MCMC methods significantly underperform compared to other studied time-efficient methods, such as the class of low-degree polynomials.</p></div>
+        </div>
+        <div class="talk">
+          <span class="speaker">August Chen</span>
+          <span class="title">Sampling from the negative spherical perceptron</span>
+          <div class="abstract">Consider the intersection of <i>M</i> random half-spaces with negative margin with the boundary of the <i>N</i>-dimensional sphere, known as the negative spherical perceptron model in probability theory and statistical physics. We consider the problem of approximately sampling from the resulting set of solutions, which is expected in statistical physics to be possible for a large range of clause densities <i>M</i>/<i>N</i>. When the margin is negative, the set of solutions is complicated and in particular highly non-convex. We propose a simple convex-relaxation based algorithm that samples to arbitrary accuracy in normalized Wasserstein distance, that succeeds up to clause densities <i>M</i>/<i>N</i> only off by a lower-order term in the margin. Crucial to our analysis is a novel understanding of the free energy of the set of solutions as the margin is changed, without being able to exactly understand the free energy of the set of solutions with the so-called Gardner formula.</div>
+        </div>
+        <div class="talk">
+          <span class="speaker">Gabe Schoenbach</span>
+          <span class="title">Online algorithms cannot find isolated perceptron solutions</span>
+          <div class="abstract">The binary perceptron is a random constraint satisfaction problem that asks for a sign vector in the intersection of many independent random Gaussian half-spaces. Many successful perceptron algorithms are online, in the sense that they process the columns of the constraint matrix one-by-one and sign each — irrevocably — on arrival. We use a novel argument to show that online algorithms cannot find "isolated" solutions, i.e., those that lie at least polylogarithmically-far away from other solutions. Since all but a vanishing fraction of perceptron solutions are isolated, our result suggests that algorithms succeed by locating rare, well-connected clusters of solutions. This work is joint with Shuangping Li.</div>
+        </div>
+        <div class="talk">
+          <span class="speaker">Ratul Biswas</span>
+          <span class="title">Limiting dynamics of non-reciprocally coupled spherical spin glasses</span>
+          <div class="abstract">I will discuss recent work on the Langevin dynamics of two non-reciprocally coupled spherical spin glass models. In this work, we show that in the thermodynamic limit, the empirical correlation and integrated response functions converge to the unique solution of a system of coupled integro-differential equations. We also characterize the long-time behavior of these limiting dynamics, establishing exponential decay at high temperatures and for the spherical Sherrington–Kirkpatrick model we demonstrate aging at low temperatures and describe the behavior at critical temperature.</div>
+        </div>
+      </div>
+    </div>
+    <h3 id="session3">Thursday 4:10-5:00</h3>
+    <div class="row">
+      <div class="twelve columns">
+        <div class="talk">
+          <span class="speaker">Jiaming Xu</span>
+          <span class="title">From topological expansion to Airy beta process</span>
+          <div class="abstract">Consider the Gaussian unitary ensemble (GUE), the most fundamental complex random matrices. The expectation of its trace power can be calculated as a weighted sum over the polygon gluings into closed orientable surfaces of genus 0,1,2,... A similar result holds for GOE (real symmetric Gaussian matrices), when one sums over non-orientable surfaces as well. This so-called topological expansion, and its <i>β</i>-version yields many fascinating results in random matrices, geometry and algebraic combinatorics. We use the idea to study the edge limit of the Jack processes, a class of discrete <i>N</i>-dimensional Markov processes analogous to the Dyson Brownian motion, and give a new multi-time formula for the limiting Airy beta process. The formula has a clear expansion in terms of genus, and its \(\beta=2\) case leads to a new explicit expression of the Witten-Kontsevich intersection numbers.</div>
+        </div>
+        <div class="talk">
+          <span class="speaker">Shengjing Xu</span>
+          <span class="title">Dynamical edge universality and the Airy–beta line ensemble</span>
+          <div class="abstract">Many models in random matrix theory and interacting particle systems are expected to exhibit universal space–time behavior near the edge. In this talk, I will present a general dynamical edge universality theorem showing that, under the proper edge scaling, the top particle trajectories converge locally uniformly in time to the Airy–<i>β</i> line ensemble. The key ingredient of the proof is the dynamical loop equation, together with characteristic-flow analysis. This is joint work with Jiaoyang Huang and Yulei Xu.</div>
+        </div>
+        <div class="talk">
+          <span class="speaker">Jiahe Shen</span>
+          <span class="title"><i>p</i>-adic eigenvalue statistics and universality</span>
+          <div class="abstract">I will give a brief introduction to eigenvalue statistics of large random matrices over the <i>p</i>-adic integers. In joint work with Roger Van Peski, we obtain explicit limiting correlation functions for Haar-random matrices, and I will mention a universality theorem showing that the same statistics persist for broad non-Haar ensembles. I will conclude with the connection to recent numerical tests for <i>p</i>-adic <i>L</i>-functions.</div>
+        </div>
+        <div class="talk">
+          <span class="speaker">Chen Li</span>
+          <span class="title">On Talagrand’s fractional discrete convexity conjecture</span>
+          <div class="abstract">Motivated by his study of the suprema of Gaussian processes, Talagrand formulated a convexity conjecture that asks whether one can create a convex set by applying a bounded, dimension-independent number of Minkowski sums to a large set in Gaussian space. Earlier this year, Hua, Song, and Tudose provided a remarkable proof of this conjecture. In this talk, we will present a resolution of a discrete analogue of the convexity conjecture, also proposed by Talagrand, in which Gaussian random variables are replaced by Bernoulli random variables, and Minkowski sums by unions. We discovered this proof with AI.</div>
+        </div>
+      </div>
+    </div>
+    <h3 id="session4">Friday 1:45-3:00</h3>
+    <div class="row">
+      <div class="twelve columns">
+        <div class="talk">
+          <span class="speaker">Phawin Prongpaophan</span>
+          <span class="title">The sum of leaf weights in the minimum spanning tree of the complete graph</span>
+          <div class="abstract"><p>Let \(G_n\) be a random weighted complete graph on <i>n</i> vertices, where edges have i.i.d. \(\text{Unif}(0,1)\) weights. Let \(T_n\) be the Minimum Spanning Tree (MST) of \(G_n\). The expected weight of \(T_n\) is known to converge to \(\zeta(3) = \sum_{k=1}^{\infty} \frac{1}{k^3}\) (Frieze 1985). We investigate the sum of weights of edges incident to the leaves of \(T_n\), denoting this quantity by \(L_n\). We give tight upper and lower bounds on \(\mathbb{E}[L_n]\) and determine its limit as <i>n</i> diverges, leveraging typical behavior of sparse Erdős–Rényi random graphs. We also establish concentration of \(L_n\) around \(\mathbb{E}[L_n]\) and almost sure convergence to this value. These results directly yield substantial improvements to state-of-the-art bounds for two important variants of the MST problem: (1) an improved upper bound on the weight of the optimal random instance Steiner tree, as studied by Bollobás, Gamarnik, Riordan, and Sudakov (2004); and (2) an improvement over the upper bound for the Probabilistic Minimum Spanning Tree, introduced by Bertsimas (1988).</p><p>(Joint work with Julia Gaudio and Miklós Rácz)</p></div>
+        </div>
+        <div class="talk">
+          <span class="speaker">I-Hsun Chen</span>
+          <span class="title">Large deviations for marked sparse random graphs with applications</span>
+          <div class="abstract">Rare events, despite their low probability, can have a substantial impact on an entire system. Understanding how the underlying network structure shapes rare events can help us estimate their probabilities, identify the most likely way such rare events occur, and inform interventions to mitigate their effects.  In this talk, I will begin with an example illustrating how large deviation theory enables rare-event inference on networks. I will then introduce new large deviation principles we have established for marked sparse random graphs, which extend this approach to richer network models.</div>
+        </div>
+        <div class="talk">
+          <span class="speaker">Byron Chin</span>
+          <span class="title">Solvability of the random stable roommates problem</span>
+          <div class="abstract">Assume that \(n = 2k\) potential roommates each have an ordered preference of the \(n-1\) others. A stable matching is a perfect matching of the <i>n</i> roommates in which no two unmatched people prefer each other to their matched partners. When the preferences are chosen uniformly at random, Gusfield and Irving predicted in 1989 that there is no stable matching with high probability. I will discuss our proof of this conjecture, based on a new approach to understanding the landscape of stable matchings. Joint work with Marcus Michelen.</div>
+        </div>
+        <div class="talk">
+          <span class="speaker">Pranav Chinmay</span>
+          <span class="title"><i>k</i>-point functions in high dimensional critical percolation</span>
+          <div class="abstract">We show that the probability that <i>k</i> points of mutual distance order <i>n</i> lie in the same percolation cluster, rescaled by \(n^{(4-d)(k-1)-2}\), converges to a constant, resolving a conjecture of Aizenman and Newman from 1984. This result is part of a program that uses our robust construction of the incipient infinite cluster as a decoupling tool to analyze scaling limits associated to critical clusters. Joint work with Shirshendu Chatterjee, Jack Hanson, and Philippe Sosoe.</div>
+        </div>
+        <div class="talk">
+          <span class="speaker">Anna Brandenberger</span>
+          <span class="title">The largest common subtree of two random trees</span>
+          <div class="abstract">We study the size and structure of the largest common subtree (LCS) between two independent Bienaymé trees conditioned to have size <i>n</i>. When the trees are critical with finite 2nd and \((2+\kappa)\)th moment respectively for some \(\kappa&gt;0\), we prove that the LCS has size of order \(\sqrt{n}\), and is approximated by the length of three paths meeting at a central node. Moreover, we show that the largest common subtree between two critical independent Bienaymé trees with size <i>n</i> and finite second moments may be much larger than \(\sqrt{n}\), implying that our result is tight. Joint work with Omer Angel, Caelan Atamanchuk, Serte Donderwinkel, Robin Khanfir.</div>
+        </div>
+        <div class="talk">
+          <span class="speaker">Ruiting Tong</span>
+          <span class="title">Stable and Fréchet limit theorem for subgraph functionals in the hyperbolic random geometric graph</span>
+          <div class="abstract">We study the fluctuations of subgraph counts in hyperbolic random geometric graphs on the <i>d</i>-dimensional Poincaré ball in the heterogeneous, heavy-tailed degree regime. In a hyperbolic random geometric graph whose vertices are given by a Poisson point process on a growing hyperbolic ball, we consider two basic families of subgraphs: star shape counts and clique counts, and we analyze their global counts and maxima over the vertex set. Working in the parameter regime where a small number of vertices close to the center of the Poincaré ball carry very large degrees and act as hubs, we establish joint functional limit theorems for suitably normalized star shape and clique count processes together with the associated maxima processes. The limits are given by a two-dimensional dependent process whose components are a stable Lévy process and an extremal Fréchet process, reflecting the fact that a small number of hubs dominates both the total number of local subgraphs and their extremes. As an application, we derive fluctuation results for the global clustering coefficient, showing that its asymptotic behavior is described by the ratio of the components of a bivariate Lévy process with perfectly dependent stable jumps.</div>
+        </div>
+      </div>
+    </div>
+    <h3 id="session5">Friday 3:15-4:15</h3>
+    <div class="row">
+      <div class="twelve columns">
+        <div class="talk">
+          <span class="speaker">Kyprianos-Iason Prodromidis</span>
+          <span class="title">Cutoff profile for the balanced generalized Bernoulli-Laplace model</span>
+          <div class="abstract">We consider the balanced generalized Bernoulli-Laplace model recently introduced by Goenka, Hermon, and Schmid. We investigate whether a cutoff profile around the mixing time exists and compute it if it does. Our analysis relies on showing that the trajectory of the chain is deterministic up until just before the cutoff window, and approximates a diffusion afterwards. Compared to the two-urn analog, the model is in higher dimension, which can lead to complications, including the non-existence of a cutoff profile, as well as the emergence of a lower-order additive term in the mixing time. Joint work with Ritesh Goenka.</div>
+        </div>
+        <div class="talk">
+          <span class="speaker">Estepan Ashkarian</span>
+          <span class="title">Invariant measures for dissipative stochastic heat equations in the whole space</span>
+          <div class="abstract">In this talk we consider the nonlinear stochastic heat equation (NSHE) on the whole space \(\mathbb{R}^d\), with a dissipative drift such as \(f(u)=u-u^3\), a bounded Lipschitz diffusion coefficient, and a Gaussian noise which is white in time and spatially homogeneous. We ask whether this dynamics admits an invariant measure. We first review previous work on this question for the NSHE in the two main schools of SPDE theory, the Walsh–Dalang random field approach and the Da Prato–Zabczyk semigroup approach, and point out what each of them requires of the noise, the drift and the domain. We then state our setting, which allows non-trace-class noises such as Riesz kernels in any dimension \(d\geq1\), and our main result: the time averages of the law of the solution are tight in a weighted space of continuous functions, and every limit point is an invariant measure. This is based on joint work with Samy Tindel.</div>
+        </div>
+        <div class="talk">
+          <span class="speaker">Youssef Hakiki</span>
+          <span class="title">Itô–Stratonovich formula for rough sheets</span>
+          <div class="abstract">We present a new approach to developing an Itô–Stratonovich-type formula for rough sheets. Historically, planar integration for irregular paths has been notoriously difficult. The emergence of 'mixed differential' terms in 2D leads to overlapping iterated integrals, the construction of which previously required exhaustive combinatorial structures. One example of such a structure is the substantial 36-element planar signature introduced by K. Chouk and M. Gubinelli (Rough Sheets, <a href="https://arxiv.org/abs/1406.7748">arXiv:1406.7748</a>, 2014). In this work, we propose a simplified setting for rough sheet calculus that relies on elementary Taylor expansions in a more fundamental way. We claim that this simple trick significantly streamlines the complexity of planar algebraic integration. We illustrate the methodology in three regimes. Firstly, we present a special Rough-Young framework (joint work with S. Tindel, <a href="https://arxiv.org/abs/2606.20908">arXiv:2606.20908</a>) for paths with “asymmetric” Hölder regularity: \(H_1 &gt; 1/3\) in direction 1 and \(H_2 &gt; 1/2\) in direction 2. Relying on structured controlled path expansions, we rigorously minimize the set of iterated integrals required in the signature to 4 elements. We extend the classical planar change-of-variable formula to this regime and express it as an explicit limit of Riemann sums. The signature elements required for this are then constructed for the fractional Brownian sheet with \(1/3&lt;H_1&lt;1/2\) and \(H_2 &gt; 1/2\). Secondly, we consider the fully rough regime, where \(1/3&lt; H_1, H_2 &lt; 1/2\) (joint work with S. Tindel). Here, a symmetric second-order Taylor expansion produces a planar integral with a signature of 10 elements instead of 36 compared to Chouk-Gubinelli’s paper. Third, we demonstrate that the class of controlled sheets is not stable under integration. However, in the Rough-Young regime, the rough sheet integral can be interpreted as a one-parameter infinite-dimensional rough path integral (ongoing work with M. R. Lahwate). This allows us to interpret some stochastic Goursat PDEs as infinite-dimensional RDEs.</div>
+        </div>
+        <div class="talk">
+          <span class="speaker">Maximillian Newman</span>
+          <span class="title">Exponential mixtures are rigid</span>
+          <div class="abstract">A basic identifiability question in nonparametric statistics is whether the law of an infinite exchangeable sequence is determined by a finite-dimensional marginal. For a broad class of one-parameter exponential mixtures, we show that the three-dimensional marginal suffices, even among exchangeable laws not assumed to belong to the mixture model. This threshold is sharp for every nondegenerate mixing law. As applications, we obtain sharp finite-dimensional refinements of the classical theorems of Freedman and Schoenberg.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
